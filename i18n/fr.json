@@ -1,8 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Verdy p"
+			"Verdy p",
+			"Gomoko"
 		]
 	},
+	"newuseractions-desc": "Flux de travail de prise en charge pour les nouveaux comptes utilisateur",
+	"newuseractions-userpage-template": "Template:New user page",
+	"newuseractions-userpage-summary": "Contenu initial de [[Template:New user page]].",
 	"newuseractions-editor": "Actions d’un nouvel utilisateur"
 }
