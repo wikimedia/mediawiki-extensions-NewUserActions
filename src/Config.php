@@ -2,8 +2,6 @@
 
 namespace MediaWiki\Extensions\NewUserActions;
 
-use User;
-
 class Config {
 
 	/**
