@@ -52,15 +52,4 @@ class Hooks {
 		return true;
 	}
 
-	/**
-	 * Hook functions to extend core's PHPUnit test suite.
-	 *
-	 * @param array &$paths The list of the test files or directories for PHPUnit
-	 * @return bool
-	 */
-	public static function onUnitTestsList( &$paths ) {
-		$paths[] = __DIR__ . '/tests/phpunit';
-		return true;
-	}
-
 }

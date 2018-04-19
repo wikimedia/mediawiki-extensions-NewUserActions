@@ -29,9 +29,6 @@
 		],
 		"UserGetReservedNames": [
 			"MediaWiki\\Extensions\\NewUserActions\\Hooks::onUserGetReservedNames"
-		],
-		"UnitTestsList": [
-			"MediaWiki\\Extensions\\NewUserActions\\Hooks::onUnitTestsList"
 		]
 	},
 	"load_composer_autoloader": true,
