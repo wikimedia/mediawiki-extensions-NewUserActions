@@ -3,6 +3,9 @@
 use MediaWiki\Extensions\NewUserActions\Config;
 
 class ConfigTest extends MediaWikiTestCase {
+	/**
+	 * @covers MediaWiki\Extensions\NewUserActions\Config::getLocalisedMessage
+	 */
 	public function testGetLocalisedMessage() {
 		$this->assertEquals( "⧼⧽", Config::getLocalisedMessage( "" ) );
 		$this->assertEquals(
@@ -15,6 +18,9 @@ class ConfigTest extends MediaWikiTestCase {
 		);
 	}
 
+	/**
+	 * @covers MediaWiki\Extensions\NewUserActions\Config::getEditFlags
+	 */
 	public function testGetEditFlags() {
 		global $wgNewUserActionsMinorEdit, $wgNewUserActionsSuppressRC;
 
