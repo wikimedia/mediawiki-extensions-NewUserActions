@@ -4,7 +4,7 @@
 		"mediawiki/mediawiki-codesniffer": "28.0.0",
 		"psy/psysh": "@stable",
 		"jakub-onderka/php-console-highlighter": "0.3.2",
-		"mediawiki/minus-x": "0.3.1"
+		"mediawiki/minus-x": "0.3.2"
 	},
 	"scripts": {
 		"test": [
