@@ -2,14 +2,12 @@
 
 namespace MediaWiki\Extensions\NewUserActions\Actions;
 
-use MediaWiki\Extensions\NewUserActions\Config;
-
 use ContentHandler;
+use MediaWiki\Extensions\NewUserActions\Config;
+use RuntimeException;
 use Title;
 use User;
 use WikiPage;
-
-use RuntimeException;
 
 class CreateNewUserPage extends CreateWikiPage {
 

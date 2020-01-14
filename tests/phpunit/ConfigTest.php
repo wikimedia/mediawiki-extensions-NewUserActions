@@ -36,7 +36,7 @@ class ConfigTest extends MediaWikiTestCase {
 		$this->assertEquals( 8, Config::getEditFlags() );
 
 		$wgNewUserActionsMinorEdit = $wgNewUserActionsSuppressRC = false;
-		$this->assertEquals( 0, Config::getEditFlags() );
+		$this->assertSame( 0, Config::getEditFlags() );
 
 		// Restore default configuration
 		$wgNewUserActionsMinorEdit = true;
