@@ -21,15 +21,9 @@
 		"MediaWiki\\Extensions\\NewUserActions\\Actions\\CreateWikiPage": "src/Actions/CreateWikiPage.php"
 	},
 	"Hooks": {
-		"AddNewAccount": [
-			"MediaWiki\\Extensions\\NewUserActions\\Hooks::onAddNewAccount"
-		],
-		"LocalUserCreated": [
-			"MediaWiki\\Extensions\\NewUserActions\\Hooks::onLocalUserCreated"
-		],
-		"UserGetReservedNames": [
-			"MediaWiki\\Extensions\\NewUserActions\\Hooks::onUserGetReservedNames"
-		]
+		"AddNewAccount": "MediaWiki\\Extensions\\NewUserActions\\Hooks::onAddNewAccount",
+		"LocalUserCreated": "MediaWiki\\Extensions\\NewUserActions\\Hooks::onLocalUserCreated",
+		"UserGetReservedNames": "MediaWiki\\Extensions\\NewUserActions\\Hooks::onUserGetReservedNames"
 	},
 	"load_composer_autoloader": true,
 	"config": {
