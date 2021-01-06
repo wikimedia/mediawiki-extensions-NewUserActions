@@ -46,10 +46,9 @@ abstract class CreateWikiPage extends Action {
 	 */
 	protected $flags = EDIT_NEW;
 
-	///
-	/// Run action
-	///
-
+	/**
+	 * Run action
+	 */
 	public function run() {
 		if ( $this->shouldCreatePage() ) {
 			$this->createPage();

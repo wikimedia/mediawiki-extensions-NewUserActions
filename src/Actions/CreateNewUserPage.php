@@ -21,10 +21,9 @@ class CreateNewUserPage extends CreateWikiPage {
 		}
 	}
 
-	///
-	/// Set page properties: editor, title, content and edit summary
-	///
-
+	/**
+	 * Set page properties: editor, title, content and edit summary
+	 */
 	protected function setPageProperties() {
 		$this->setEditor();
 		$this->setTitle();
@@ -91,7 +90,7 @@ class CreateNewUserPage extends CreateWikiPage {
 	 * Fetches page content.
 	 *
 	 * @param string $pageTitle The page title
-	 * @param string The page content or "" if the page isn't found
+	 * @return string The page content or "" if the page isn't found
 	 */
 	private function fetchPageContent( $pageTitle ) {
 		$title = Title::newFromText( $pageTitle );
