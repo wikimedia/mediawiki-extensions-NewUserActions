@@ -79,7 +79,7 @@ class CreateNewUserPage extends CreateWikiPage {
 			throw new RuntimeException( "The editor username is invalid." );
 		}
 
-		if ( !$editor->isLoggedIn() ) {
+		if ( !$editor->isRegistered() ) {
 			$editor->addToDatabase();
 		}
 

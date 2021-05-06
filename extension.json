@@ -7,6 +7,9 @@
 	"descriptionmsg": "newuseractions-desc",
 	"license-name": "GPL-2.0-or-later",
 	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.34.0"
+	},
 	"MessagesDirs": {
 		"NewUserActions": [
 			"i18n"
