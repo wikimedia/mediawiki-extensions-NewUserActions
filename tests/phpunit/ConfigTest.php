@@ -2,7 +2,7 @@
 
 use MediaWiki\Extensions\NewUserActions\Config;
 
-class ConfigTest extends MediaWikiTestCase {
+class ConfigTest extends MediaWikiIntegrationTestCase {
 	/**
 	 * @covers MediaWiki\Extensions\NewUserActions\Config::getLocalisedMessage
 	 */
