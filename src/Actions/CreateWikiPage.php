@@ -94,7 +94,7 @@ abstract class CreateWikiPage extends Action {
 	 * @return bool
 	 */
 	protected function editorCanEdit() {
-		return $this->editor && !$this->editor->isBlocked();
+		return $this->editor && !$this->editor->getBlock();
 	}
 
 }
