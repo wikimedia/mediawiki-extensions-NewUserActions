@@ -1,9 +1,9 @@
 <?php
 
-namespace MediaWiki\Extensions\NewUserActions\Actions;
+namespace MediaWiki\Extension\NewUserActions\Actions;
 
 use ContentHandler;
-use MediaWiki\Extensions\NewUserActions\Config;
+use MediaWiki\Extension\NewUserActions\Config;
 use RuntimeException;
 use Title;
 use User;

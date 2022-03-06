@@ -1,6 +1,6 @@
 <?php
 
-namespace MediaWiki\Extensions\NewUserActions;
+namespace MediaWiki\Extension\NewUserActions;
 
 class Config {
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace MediaWiki\Extensions\NewUserActions;
+namespace MediaWiki\Extension\NewUserActions;
 
-use MediaWiki\Extensions\NewUserActions\Actions\CreateNewUserPage;
+use MediaWiki\Extension\NewUserActions\Actions\CreateNewUserPage;
 
 use User;
 
@@ -18,7 +18,7 @@ class Actions {
 	/**
 	 * The list of actions to run
 	 *
-	 * @var MediaWiki\Extensions\NewUserActions\Actions\Action[]
+	 * @var MediaWiki\Extension\NewUserActions\Actions\Action[]
 	 */
 	private $actions = [];
 

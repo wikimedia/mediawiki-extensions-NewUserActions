@@ -16,17 +16,17 @@
 		]
 	},
 	"AutoloadClasses": {
-		"MediaWiki\\Extensions\\NewUserActions\\Actions": "src/Actions.php",
-		"MediaWiki\\Extensions\\NewUserActions\\Config": "src/Config.php",
-		"MediaWiki\\Extensions\\NewUserActions\\Hooks": "src/Hooks.php",
-		"MediaWiki\\Extensions\\NewUserActions\\Actions\\Action": "src/Actions/Action.php",
-		"MediaWiki\\Extensions\\NewUserActions\\Actions\\CreateNewUserPage": "src/Actions/CreateNewUserPage.php",
-		"MediaWiki\\Extensions\\NewUserActions\\Actions\\CreateWikiPage": "src/Actions/CreateWikiPage.php"
+		"MediaWiki\\Extension\\NewUserActions\\Actions": "src/Actions.php",
+		"MediaWiki\\Extension\\NewUserActions\\Config": "src/Config.php",
+		"MediaWiki\\Extension\\NewUserActions\\Hooks": "src/Hooks.php",
+		"MediaWiki\\Extension\\NewUserActions\\Actions\\Action": "src/Actions/Action.php",
+		"MediaWiki\\Extension\\NewUserActions\\Actions\\CreateNewUserPage": "src/Actions/CreateNewUserPage.php",
+		"MediaWiki\\Extension\\NewUserActions\\Actions\\CreateWikiPage": "src/Actions/CreateWikiPage.php"
 	},
 	"Hooks": {
-		"AddNewAccount": "MediaWiki\\Extensions\\NewUserActions\\Hooks::onAddNewAccount",
-		"LocalUserCreated": "MediaWiki\\Extensions\\NewUserActions\\Hooks::onLocalUserCreated",
-		"UserGetReservedNames": "MediaWiki\\Extensions\\NewUserActions\\Hooks::onUserGetReservedNames"
+		"AddNewAccount": "MediaWiki\\Extension\\NewUserActions\\Hooks::onAddNewAccount",
+		"LocalUserCreated": "MediaWiki\\Extension\\NewUserActions\\Hooks::onLocalUserCreated",
+		"UserGetReservedNames": "MediaWiki\\Extension\\NewUserActions\\Hooks::onUserGetReservedNames"
 	},
 	"load_composer_autoloader": true,
 	"config": {

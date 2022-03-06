@@ -1,6 +1,6 @@
 <?php
 
-namespace MediaWiki\Extensions\NewUserActions\Actions;
+namespace MediaWiki\Extension\NewUserActions\Actions;
 
 use User;
 

@@ -1,10 +1,10 @@
 <?php
 
-use MediaWiki\Extensions\NewUserActions\Config;
+use MediaWiki\Extension\NewUserActions\Config;
 
 class ConfigTest extends MediaWikiIntegrationTestCase {
 	/**
-	 * @covers MediaWiki\Extensions\NewUserActions\Config::getLocalisedMessage
+	 * @covers MediaWiki\Extension\NewUserActions\Config::getLocalisedMessage
 	 */
 	public function testGetLocalisedMessage() {
 		$this->assertEquals( "⧼⧽", Config::getLocalisedMessage( "" ) );
@@ -19,7 +19,7 @@ class ConfigTest extends MediaWikiIntegrationTestCase {
 	}
 
 	/**
-	 * @covers MediaWiki\Extensions\NewUserActions\Config::getEditFlags
+	 * @covers MediaWiki\Extension\NewUserActions\Config::getEditFlags
 	 */
 	public function testGetEditFlags() {
 		global $wgNewUserActionsMinorEdit, $wgNewUserActionsSuppressRC;
