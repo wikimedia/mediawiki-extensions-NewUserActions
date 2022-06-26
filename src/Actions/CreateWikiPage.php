@@ -2,6 +2,7 @@
 
 namespace MediaWiki\Extension\NewUserActions\Actions;
 
+use MediaWiki\MediaWikiServices;
 use User;
 use WikiPage;
 
@@ -59,7 +60,12 @@ abstract class CreateWikiPage extends Action {
 	 * Creates a page.
 	 */
 	public function createPage() {
-		$page = WikiPage::factory( $this->title );
+		if ( method_exists( MediaWikiServices::class, 'getWikiPageFactory' ) ) {
+			// MW 1.36+
+			$page = MediaWikiServices::getInstance()->getWikiPageFactory()->newFromTitle( $this->title );
+		} else {
+			$page = WikiPage::factory( $this->title );
+		}
 		$flags = $page->checkFlags( $this->flags );
 
 		$status = $page->doEdit(

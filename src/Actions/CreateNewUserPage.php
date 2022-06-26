@@ -4,6 +4,7 @@ namespace MediaWiki\Extension\NewUserActions\Actions;
 
 use ContentHandler;
 use MediaWiki\Extension\NewUserActions\Config;
+use MediaWiki\MediaWikiServices;
 use RuntimeException;
 use Title;
 use User;
@@ -99,7 +100,12 @@ class CreateNewUserPage extends CreateWikiPage {
 			return "";
 		}
 
-		$page = WikiPage::factory( $title );
+		if ( method_exists( MediaWikiServices::class, 'getWikiPageFactory' ) ) {
+			// MW 1.36+
+			$page = MediaWikiServices::getInstance()->getWikiPageFactory()->newFromTitle( $title );
+		} else {
+			$page = WikiPage::factory( $title );
+		}
 		$content = $page->getContent();
 		return ContentHandler::getContentText( $content );
 	}
