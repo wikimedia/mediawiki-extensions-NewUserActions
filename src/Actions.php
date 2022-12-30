@@ -3,7 +3,6 @@
 namespace MediaWiki\Extension\NewUserActions;
 
 use MediaWiki\Extension\NewUserActions\Actions\CreateNewUserPage;
-
 use User;
 
 class Actions {
