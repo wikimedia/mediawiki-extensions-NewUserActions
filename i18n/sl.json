@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar"
+		]
+	},
+	"newuseractions-desc": "Delovni tok za uvajanje za nove uporabniške račune",
+	"newuseractions-userpage-template": "Template:New user page",
+	"newuseractions-userpage-summary": "Začetna vsebina iz [[Template:New user page]].",
+	"newuseractions-editor": "Dejanja novega uporabnika"
+}
