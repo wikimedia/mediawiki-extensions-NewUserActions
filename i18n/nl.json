@@ -1,8 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mainframe98"
+			"Mainframe98",
+			"McDutchie"
 		]
 	},
-	"newuseractions-userpage-template": "Sjabloon:Nieuwe gebruikerspagina"
+	"newuseractions-desc": "Welkomstprocedure voor nieuwe gebruikersaccounts",
+	"newuseractions-userpage-template": "Sjabloon:Nieuwe gebruikerspagina",
+	"newuseractions-userpage-summary": "Eerste inhoud van [[Template:New user page|Sjabloon:Nieuwe gebruikerspagina]].",
+	"newuseractions-editor": "Handelingen van nieuwe gebruikers"
 }
