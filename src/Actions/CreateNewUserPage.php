@@ -5,8 +5,8 @@ namespace MediaWiki\Extension\NewUserActions\Actions;
 use ContentHandler;
 use MediaWiki\Extension\NewUserActions\Config;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Title\Title;
 use RuntimeException;
-use Title;
 use User;
 use WikiPage;
 
