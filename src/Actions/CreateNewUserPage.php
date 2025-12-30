@@ -2,11 +2,11 @@
 
 namespace MediaWiki\Extension\NewUserActions\Actions;
 
-use ContentHandler;
 use MediaWiki\Extension\NewUserActions\Config;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Title\Title;
 use RuntimeException;
+use TextContent;
 use User;
 use WikiPage;
 
@@ -107,7 +107,7 @@ class CreateNewUserPage extends CreateWikiPage {
 			$page = WikiPage::factory( $title );
 		}
 		$content = $page->getContent();
-		return ContentHandler::getContentText( $content );
+		return $content instanceof TextContent ? $content->getText() : '';
 	}
 
 }
