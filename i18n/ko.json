@@ -1,8 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ykhwong"
+			"Ykhwong",
+			"Tensama0415"
 		]
 	},
+	"newuseractions-desc": "신규 사용자 계정을 위한 사용자 지원 워크플로",
+	"newuseractions-userpage-template": "틀:새 사용자 페이지",
+	"newuseractions-userpage-summary": "[[Template:New user page|틀: 새 사용자 페이지]]의 초기 내용입니다.",
 	"newuseractions-editor": "새 사용자 동작"
 }
